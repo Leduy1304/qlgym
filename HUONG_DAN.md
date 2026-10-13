@@ -4,7 +4,6 @@ Bản này giữ nguyên 100% phần Duy đã làm (form **NewMember**, giao di�
 và làm nốt các chức năng còn thiếu: **New Staff, Equipment, Search Member, Delete Member,
 Log Out, Exit** — kèm theo form **Đăng nhập (Login)** để nút Log Out có ý nghĩa.
 
-Đã kiểm tra biên dịch toàn bộ project: **0 lỗi**.
 
 ---
 
