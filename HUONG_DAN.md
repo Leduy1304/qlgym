@@ -42,7 +42,7 @@ Mở Visual Studio → Open → chọn file `Gym_Management.slnx` (hoặc
 | LOG OUT | trong `Form1.cs` | Hỏi xác nhận → đóng form chính → **quay lại màn hình Đăng nhập** |
 | EXIT | trong `Form1.cs` | Hỏi xác nhận → **thoát hẳn chương trình** |
 
-## 3. Điểm kỹ thuật đáng chú ý (để trả lời khi thầy cô hỏi)
+## 3. Điểm kỹ thuật đáng chú ý
 
 - **MID là gì?** MID là mã hội viên — khóa chính của bảng `NewMember`, SQL Server tự tăng
   (1, 2, 3...) mỗi khi thêm hội viên mới. Search/Delete đều tìm theo MID vì MID không bao giờ trùng.
