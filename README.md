@@ -1,6 +1,6 @@
 # Gym Management — Phần mềm quản lý phòng gym (Anh Tú Gym)
 
-Ứng dụng Windows Forms (C#) quản lý phòng gym: quản lý hội viên, nhân viên và thiết bị,
+Ứng dụng Windows Forms (C#) quản lý phòng gym: quản lý hội viên, huấn luyện viên và thiết bị,
 dữ liệu lưu trong SQL Server.
 
 ## Công nghệ sử dụng
@@ -11,10 +11,10 @@ dữ liệu lưu trong SQL Server.
 ## Chức năng chính
 - **Đăng nhập / Đăng xuất / Thoát** (tài khoản mẫu: `admin` / `12345`)
 - **New Member** — đăng ký hội viên mới, có kiểm tra dữ liệu nhập (ô trống, email, SĐT 10 số)
-- **New Staff** — thêm nhân viên mới
+- **New PT** — thêm huấn luyện viên mới
 - **Equipment** — quản lý thiết bị: thêm mới, xem danh sách, xóa thiết bị đã chọn
-- **Search Member / Search Staff** — xem toàn bộ danh sách và tìm kiếm theo mã (MID / SID)
-- **Delete Member / Delete Staff** — xóa theo mã, kiểm tra trước và hỏi xác nhận kèm Họ Tên
+- **Search Member / Search PT** — xem toàn bộ danh sách và tìm kiếm theo mã (MID / SID)
+- **Delete Member / Delete PT** — xóa theo mã, kiểm tra trước và hỏi xác nhận kèm Họ Tên
 
 ## Cách chạy chương trình
 1. Mở SQL Server Management Studio (SSMS), chạy file `gym_database.sql` để tạo database `gym` và 3 bảng dữ liệu
@@ -29,5 +29,5 @@ dữ liệu lưu trong SQL Server.
 - `du_lieu_mau.sql` — dữ liệu mẫu để test nhanh
 - `HUONG_DAN.md` — tài liệu hướng dẫn sử dụng chi tiết
 
-## Tác giả
-Lê Duy
+## Nhóm thực hiện
+Nhóm 03
